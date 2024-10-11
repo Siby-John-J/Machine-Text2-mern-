@@ -1,0 +1,38 @@
+
+.register-holder {
+    /* background-color: red; */
+    /* height: 20vh; */
+    padding: 12px;
+}
+
+.register-holder .input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 9px;
+    margin-top: 12px;
+}
+
+.register-holder .submit {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 9px;
+    margin-top: 30px;
+    /* background-color: red; */
+}
+
+.register-holder .submit .create {
+    background-color: green;
+}
+
+
+.register-holder .submit .cancel {
+    background-color: red;
+}
+
+.register-holder .register {
+    font-size: 20px;
+    cursor: pointer;
+    color: blue;
+}
